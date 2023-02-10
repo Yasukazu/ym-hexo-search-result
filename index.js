@@ -9,6 +9,6 @@ function insertSearchResult (args) {
   })
 }
 
-hexo.extend.tag.register('search_result', insertSearchResult, {
+hexo.extend.tag.register('ym_search_result', insertSearchResult, {
   async: true
 })
